@@ -15,7 +15,7 @@ public class Vetores2Dimensao {
 //		System.out.println("Faturamento do dia 3 de Fevereiro: " + faturamentoAnual[1][2]);
 
 		for (int i = 0; i < faturamentoAnual.length; i++) {
-			System.out.println("Mês: " + (i + 1));
+			System.out.println("Mês: " + (i + 1)); // soma com + 1 porque os dias começam a partir do 1
 
 			Double[] mes = faturamentoAnual[i];
 
