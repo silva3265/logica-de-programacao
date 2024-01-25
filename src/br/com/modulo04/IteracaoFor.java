@@ -37,8 +37,8 @@ public class IteracaoFor {
 
 			Integer[] produtos = new Integer[] { 100, 225, 300 };
 
-			for (int i = 0; i < produtos.length; i++) {
-				Integer produto = produtos[i];
+			for (int j = 0; j < produtos.length; j++) {
+				Integer produto = produtos[j];
 
 				System.out.println("Produto de código: " + produto);
 
