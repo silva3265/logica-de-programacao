@@ -24,16 +24,16 @@ public class IteracaoWhile {
 //			i++;
 //		}
 
-			int i = 0;
-			while (i < 10) {
-				if (i == 5) {
+			int j = 0;
+			while (j < 10) {
+				if (j == 5) {
 					System.out.println("Vai continuar...");
-					i++;
+					j++;
 					continue;
 				}
 
-				System.out.println(i + ": Um texto qualquer.");
-				i++;
+				System.out.println(j + ": Um texto qualquer.");
+				j++;
 			}
 		}
 
